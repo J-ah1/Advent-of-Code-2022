@@ -1,10 +1,24 @@
 package day8;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
 public class PartB {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		try(BufferedReader br = new BufferedReader(new FileReader("Inputs/dayX_input.txt"))) {
+    	    String line = br.readLine();
 
+    	    while (line != null) {
+    	    	
+    	        line = br.readLine();
+    	    }
+
+    	} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 }

@@ -1,10 +1,10 @@
-package day8;
+package day13;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class PartA {
+public class PartB {
 
 	public static void main(String[] args) {
 		try(BufferedReader br = new BufferedReader(new FileReader("Inputs/dayX_input.txt"))) {
